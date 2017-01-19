@@ -47,15 +47,15 @@
     [[UIToolbar appearance] setBackgroundImage:navBarBackground forToolbarPosition:UIToolbarPositionAny barMetrics:UIBarMetricsDefault];
     
     // customize title text for *all* UINavigationBars and UIToolBars
+//    @{NSShadowAttributeName: [NSValue valueWithUIOffset:UIOffsetMake(0, 1)]};
+//    NSDictionary *fontAttribs = @{
+//        NSForegroundColorAttributeName : [UIColor colorWithRed:77.0/255.0 green:46.0/255.0 blue:10.0/255.0 alpha:1.0],
+//        NSForegroundColorAttributeName : [UIColor colorWithRed:241.0/255.0 green:225.0/255.0 blue:203/255.0 alpha:1.0],
+//        NSShadowAttributeName : [NSValue valueWithUIOffset:UIOffsetMake(0, 1)],
+//        NSFontAttributeName : [UIFont fontWithName:@"Georgia" size:24.0]
+//    };
     
-    NSDictionary *fontAttribs = @{
-        NSForegroundColorAttributeName : [UIColor colorWithRed:77.0/255.0 green:46.0/255.0 blue:10.0/255.0 alpha:1.0],
-        NSShadowAttributeName : [UIColor colorWithRed:241.0/255.0 green:225.0/255.0 blue:203/255.0 alpha:1.0],
-        NSShadowAttributeName : [NSValue valueWithUIOffset:UIOffsetMake(0, 1)],
-        NSFontAttributeName : [UIFont fontWithName:@"Georgia" size:24.0]
-    };
-    
-    [[UINavigationBar appearance] setTitleTextAttributes: fontAttribs];
+//    [[UINavigationBar appearance] setTitleTextAttributes: fontAttribs];
 }
 
 @end
